@@ -9,7 +9,8 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |element|
     new_arr << each_letter = element.split("").each {|i| i.capitalize!}.join("")
   end
-  return new_arr.join(" ")
+  return new_arr.each do |element|
+    element + "!"
 end
 
 def long_planeteer_calls# code an argument here
