@@ -7,7 +7,7 @@ end
 def summon_captain_planet(planeteer_calls)
   new_arr = []
   planeteer_calls.collect do |element|
-    new_arr << each_letter = element.split("").each {|i| i.capitalize!}.join("")
+    new_arr << each_letter = element.downcase.split("").each {|i| i.capitalize!}.join("")
   end
   return new_arr.each do |element|
     element + "!"
