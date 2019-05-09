@@ -21,4 +21,5 @@ def find_the_cheese(array)
   array.any? do |cheese|
     array.find(cheese_types)
     return cheese
+  end
 end
