@@ -4,15 +4,8 @@ def roll_call_dwarves(array)
   end
 end
 
-def summon_captain_planet(planeteer_calls)
-  new_arr = []
-  planeteer_calls.collect do |element|
-    new_arr << each_letter = element.downcase.split("").each {|i| i.capitalize!}.join("")
-  end
-  stinky = new_arr.each do |element|
-    element + "!"
-  end
-  return stinky
+def summon_captain_planet(array)
+
 end
 
 def long_planeteer_calls# code an argument here
