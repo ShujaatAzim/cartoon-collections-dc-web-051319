@@ -11,6 +11,7 @@ def summon_captain_planet(planeteer_calls)
   end
   return new_arr.each do |element|
     element + "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
